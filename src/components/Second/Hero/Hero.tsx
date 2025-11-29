@@ -1,4 +1,4 @@
-import Gta from '../../../assets/GTA 6 banner.svg';
+import Gta from '../../../assets/GTA6banner.svg';
 
 const Hero = () => {
   return (

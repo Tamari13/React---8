@@ -1,5 +1,5 @@
-import First from '../../../assets/_847692912.svg';
-import Rdr2 from '../../../assets/rgl-rdr2-buynow 1.svg';
+import First from '../../../assets/847692912.svg';
+import Rdr2 from '../../../assets/rgl-rdr2-buynow1.svg';
 
 const LauncherSection = () => {
   return (

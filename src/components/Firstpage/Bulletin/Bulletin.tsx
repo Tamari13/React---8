@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import type { BulletinGame } from '../../../types/bulletin.ts';
-import Gta6 from '../../../assets/GTA 6 banner.svg';
-import R25 from '../../../assets/Rectangle 25.svg';
+import Gta6 from '../../../assets/GTA6banner.svg';
+import R25 from '../../../assets/Rectangle25.svg';
 import R24 from '../../../assets/Rectangle24.svg';
-import Img1 from '../../../assets/Screenshot 2025-11-28 at 21.10.22.png';
-import Img2 from '../../../assets/Screenshot 2025-11-28 at 21.10.34.png';
-import Img3 from '../../../assets/Screenshot 2025-11-28 at 21.10.45.png';
+import Img1 from '../../../assets/Screenshot2025-11-28at21.10.22.png';
+import Img2 from '../../../assets/Screenshot2025-11-28at21.10.34.png';
+import Img3 from '../../../assets/Screenshot2025-11-28at21.10.45.png';
 
 const Bulletin = () => {
   const items: BulletinGame[] = [

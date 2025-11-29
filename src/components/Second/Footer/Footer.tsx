@@ -1,4 +1,4 @@
-import LogoFooter from '../../../assets/_847692912.png';
+import LogoFooter from '../../../assets/847692912.png';
 import TwitchIcon from '../../../assets/twitch.svg';
 import InstagramIcon from '../../../assets/instagram.svg';
 import TwitterIcon from '../../../assets/twitter.svg';

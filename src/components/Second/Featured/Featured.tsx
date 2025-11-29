@@ -1,8 +1,8 @@
 import type { GameItem } from '../../../types/game.ts';
-import GTA5Image from '../../../assets/GTA 5.svg';
-import GTAOnlineImage from '../../../assets/GTA online.svg';
+import GTA5Image from '../../../assets/GTA5.svg';
+import GTAOnlineImage from '../../../assets/GTAonline.svg';
 import REDImage from '../../../assets/RED.svg';
-import REDOnlineImage from '../../../assets/RED Online.svg';
+import REDOnlineImage from '../../../assets/REDOnline.svg';
 
 
 

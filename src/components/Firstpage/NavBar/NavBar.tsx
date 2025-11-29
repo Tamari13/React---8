@@ -1,6 +1,6 @@
 import Logo from '../../../assets/Logo.svg' 
-import SearchIcon from '../../../assets/Icone pesquisar.svg' 
-import LoginIcon from '../../../assets/Icone login.svg' 
+import SearchIcon from '../../../assets/Iconepesquisar.svg' 
+import LoginIcon from '../../../assets/Iconelogin.svg' 
 
 const NavBar = () => {
   return (

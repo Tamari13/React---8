@@ -1,7 +1,7 @@
 import type { NewsItem } from '../../../types/news.ts';
-import Gta6 from '../../../assets/GTA 6.svg';
+import Gta6 from '../../../assets/GTA6.svg';
 import Rectangle24 from '../../../assets/Rectangle24.svg';
-import Rectangle25 from '../../../assets/Rectangle 25.svg';
+import Rectangle25 from '../../../assets/Rectangle25.svg';
 
 const mainNews: NewsItem = {
   id: 1,

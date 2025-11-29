@@ -1,4 +1,4 @@
-import HeroImage from '../../../assets/Screenshot 2025-11-28 at 21.09.42.png';
+import HeroImage from '../../../assets/Screenshot2025-11-28at21.09.42.png';
 
 const HeroFirst = () => {
   return (
