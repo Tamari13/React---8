@@ -1,6 +1,6 @@
 import Gta5 from '../../../assets/GTA 5.svg';
 import GtaOnline from '../../../assets/GTA Online.svg';
-import Red from '../../../assets/Red.svg';
+import Red from '../../../../src/assets/RED.svg';
 import RedOnline from '../../../assets/Red Online.svg';
 
 const FeaturedGames = () => {
