@@ -2,6 +2,7 @@ import type { NewsItem } from '../../../types/news.ts';
 import Gta6 from '../../../assets/GTA6.svg';
 import Rectangle24 from '../../../assets/Rectangle24.svg';
 import Rectangle25 from '../../../assets/Rectangle25.svg';
+import { Link } from 'react-router-dom';
 
 const mainNews: NewsItem = {
   id: 1,
@@ -27,8 +28,10 @@ const sideNews: NewsItem[] = [
 
 const News = () => {
   return (
-    <section className="w-[80%] mx-auto py-10 ">
-      <h1 className="text-3xl font-bold">Últimas Notícias</h1>
+    <section className="w-full mx-auto p-20 bg-gray-900 text-white">
+      <Link to="/second/News">
+      <h1 className="text-3xl font-bold cursor-pointer hover:text-amber-500">Últimas Notícias</h1>
+      </Link>
 
       <div className="grid grid-cols-3 gap-10 mt-6">
         <div className="col-span-2">
@@ -41,7 +44,7 @@ const News = () => {
           {sideNews.map((n) => (
             <div key={n.id} className="rounded-lg">
               <img src={n.image.src} alt={n.image.alt} className="rounded-lg" />
-              <h3 className="mt-3 text-lg">{n.title}</h3>
+              <h3 className="mt-3 text-xl">{n.title}</h3>
               <p className="text-gray-400 text-sm">{n.date}</p>
             </div>
           ))

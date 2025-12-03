@@ -36,8 +36,10 @@ const Bulletin = () => {
   ];
 
   return (
-    <section className="px-10 py-16">
-      <h2 className="text-2xl mb-6 font-bold">Boletim</h2>
+    <section className="px-10 py-16 text-white">
+      <Link to="/first/Bulletin">
+      <h2 className="text-2xl text-gray-800 mb-6 font-bold hover:text-amber-600">Boletim</h2>
+      </Link>
 
       <div className="grid grid-cols-3 gap-6">
         {items.map((item: BulletinGame, i: number) =>

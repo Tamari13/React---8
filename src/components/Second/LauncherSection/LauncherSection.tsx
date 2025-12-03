@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import First from '../../../assets/847692912.svg';
 import Rdr2 from '../../../assets/rgl-rdr2-buynow1.svg';
 
@@ -7,7 +8,9 @@ const LauncherSection = () => {
       <div className="flex-1 flex flex-col gap-5">
         <div className="flex items-center gap-3">
           <img src={First} className="w-12" />
-          <h1 className="text-3xl font-bold text-black">Games <br /> Launcher</h1>
+          <Link to="/second/LauncherSection">
+            <h1 className="text-3xl font-bold text-black cursor-pointer hover:text-white">Games <br /> Launcher</h1>
+          </Link>
         </div>
 
         <h2 className="text-xl font-semibold text-black p-2">Todos os seus jogos <br/> em um só lugar.</h2>

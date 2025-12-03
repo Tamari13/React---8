@@ -1,21 +1,32 @@
 import Logo from '../../../assets/Logo.svg';
 import SearchIcon from '../../../assets/Iconepesquisar.svg';
 import LoginIcon from '../../../assets/Iconelogin.svg';
+import { Link, useNavigate  } from 'react-router-dom';
 
-const Header = () => {
+const Header = () => {  
+  const navigate = useNavigate();
+
+  const previouspage = () => {
+    navigate("/first")
+  }
+
   return (
     <header className="w-full h-[90px] px-10 flex items-center justify-between border-b border-[#222]">
-      <div className="w-32">
-        <img src={Logo} alt="Logo" className="cursor-pointer"/>
-      </div>
+      <Link to="/first">
+        <div className="w-32">
+          <img src={Logo} alt="Logo" className="cursor-pointer"/>
+        </div>
+      </Link>
+
 
       <nav className="flex gap-6 text-white">
-        <a className="cursor-pointer">Jogos ▾</a>
-        <a className="cursor-pointer">Loja</a>
-        <a className="cursor-pointer">Ajuda</a>
+        <Link to="/first/Bulletin">Jogos</Link>
+        <Link to="/second/News">Loja</Link>
+        <Link to="/second/LauncherSection">Ajuda</Link>
+
       </nav>
 
-      <button className="bg-[#FCAF17] px-5 py-2 rounded-lg font-bold text-black cursor-pointer hover:bg-yellow-600 transition-colors">
+      <button className="bg-[#FCAF17] px-5 py-2 rounded-lg font-bold text-black cursor-pointer hover:bg-yellow-600 transition-colors" onClick={previouspage}>
         Baixe o Launcher
       </button>
 

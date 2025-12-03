@@ -3,6 +3,7 @@ import GTA5Image from '../../../assets/GTA5.svg';
 import GTAOnlineImage from '../../../assets/GTAonline.svg';
 import REDImage from '../../../assets/RED.svg';
 import REDOnlineImage from '../../../assets/REDOnline.svg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,9 +16,11 @@ const games: GameItem[] = [
 
 const Featured = () => {
   return (
-    <section className="w-[80%] mx-auto py-20">
+    <section className=" mx-auto p-20 w-full bg-gray-900 text-white ">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Jogos em Destaque</h1>
+        <Link to="/second/Featured">
+          <h1 className="text-3xl font-bold hover:cursor-pointer hover:text-amber-400">Jogos em Destaque</h1>
+        </Link>
 
         <div className="flex gap-3">
           <button className="px-4 py-2 rounded-full bg-[#222] cursor-pointer hover:scale-110 transition-transform">PC</button>
